@@ -35,6 +35,8 @@ gem 'bootstrap-sass'
 
 gem 'devise'
 
+
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -46,6 +48,10 @@ group :development, :test do
   gem 'selenium-webdriver'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '< 1.4'
+  gem "paperclip"
+
+
+
 end
 
 

@@ -5,6 +5,7 @@ class CreateRooms < ActiveRecord::Migration[5.1]
       t.string :room_type
       t.integer :accomodate
       t.integer :bed_room
+      t.integer :bath_room
       t.string :listing_name
       t.text :summary
       t.string :address

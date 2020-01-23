@@ -48,8 +48,10 @@ group :development, :test do
   gem 'selenium-webdriver'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '< 1.4'
+
   gem "paperclip"
 
+  gem 'toastr-rails'
 
 
 end

@@ -6,6 +6,7 @@
         <div class="container">
 
             <%= form_for @room do |f| %>
+                <%= render 'shared/errors' %>
 
 	            <div class="row">
 
@@ -43,7 +44,15 @@
 	                        <div class="form-group">
 	                            <label>Rooms</label>
 	                            <%= f.select :bed_room, [["1",1],["2",2],
-	                            ["3",3], ["4",4]], prompt:"Select...",
+	                            ["3",3], ["4",4]], prompt:"Select a number of rooms",
+	                            class:"form-control" %>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-4 select">
+	                        <div class="form-group">
+	                            <label>Bath_room</label>
+	                            <%= f.select :bath_room, [["1",1],["2",2],
+	                            ["3",3], ["4",4]], prompt:"Select a numbr of bathrooms",
 	                            class:"form-control" %>
 	                        </div>
 	                    </div>

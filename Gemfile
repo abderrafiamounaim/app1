@@ -34,6 +34,11 @@ gem 'jquery-rails'
 gem 'bootstrap-sass'
 
 gem 'devise'
+gem "paperclip"
+
+gem 'toastr-rails'
+gem 'font-awesome-sass'
+
 
 
 
@@ -49,9 +54,7 @@ group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '< 1.4'
 
-  gem "paperclip"
-
-  gem 'toastr-rails'
+ 
 
 
 end
